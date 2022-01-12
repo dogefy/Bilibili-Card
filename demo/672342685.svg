@@ -1,0 +1,28 @@
+<svg width="450" height="195" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g>
+  <title>background</title>
+  <rect x="0" y="0" rx='20' width="450" height="195" id="background" fill="#ffb6c1"/>
+ </g>
+ <g>
+    <title>face</title>
+    <defs>
+        <pattern height="120" width="120" patternUnits="userSpaceOnUse" id="raduisImage">
+            <image  height="100" width="100" y="20" x="20" xlink:href="http://i1.hdslb.com/bfs/face/8895c87082beba1355ea4bc7f91f2786ef49e354.jpg"/>
+        </pattern>
+    </defs>
+    <circle id="svg_2" fill="url(#raduisImage)" r="50" cy="70" cx="70"/>
+ </g>
+ <g>
+  <title>stats</title>
+  <text xml:space="preserve" text-anchor="start" font-family="黑体, Arial" font-size="25" y="45" x="135" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#B13346">乃琳Queen</text>
+  <text xml:space="preserve" text-anchor="start" font-family="楷体, Arial" font-size="16" y="70" x="140" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#B13346">UID: 672342685</text>
+  <text xml:space="preserve" text-anchor="start" font-family="楷体, Arial" font-size="20" y="105" x="135" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#B13346">粉丝数: 589096</text>
+  <text xml:space="preserve" text-anchor="start" font-family="楷体, Arial" font-size="20" y="135" x="135" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#B13346">关注数: 11</text>
+  <text xml:space="preserve" text-anchor="start" font-family="楷体, Arial" font-size="20" y="167" x="20" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#B13346">喜欢听你说，开心和不开心的，都告诉我吧~</text>
+  <text xml:space="preserve" text-anchor="start" font-family="楷体, Arial" font-size="20" y="105" x="300" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#B13346">性别: 保密</text>
+ </g>
+  <g>
+  <title>date</title>
+  <text xml:space="preserve" text-anchor="start" font-family="黑体, Arial" font-size="10" y="185" x="350" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#B13346">更新于 2022.01.12</text>
+ </g>
+</svg>
