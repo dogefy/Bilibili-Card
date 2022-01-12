@@ -1,6 +1,7 @@
 import re
 import time
 import json
+import base64
 import requests
 
 headers = {
@@ -18,7 +19,8 @@ def get_info(uid):
     info['sign'] = info_json['sign']
     info['birthday'] = info_json['birthday']
     info['uid'] = info_json['mid']
-    info['face'] = info_json['face']
+    face = requests.get(info_json['face'])
+    info['face'] = 'data:image/jpeg;base64,' + str(base64.b64encode(face.content).decode())
     if info['birthday'] == '':
         info['birthday'] = 'unknown'
     info['sign'] = re.sub(r'\n', ' ', info['sign'])
