@@ -1,5 +1,7 @@
 # Bilibili Card
 
+[简体中文](https://github.com/dogefy/bilibili-card/blob/main/README.md) / [English](https://github.com/dogefy/bilibili-card/blob/main/README_en.md)  
+
 A simple status card for Bilibili, develped by `Python`, in `.svg` format.  
 not good as the expectation 🙃
 
@@ -39,8 +41,10 @@ You can fork and commit PRs freely.
 
 ## Demo
 
-![card](https://raw.githubusercontent.com/dogefy/bilibili-card/main/demo/672342685.svg)  
+![card](https://raw.githubusercontent.com/dogefy/bilibili-card/main/demo/672342685.svg)
+
 As you see, this demo is in `demo/`, so it cannot be updated automatically.  :(
 
 ## License
+
 [MIT License](https://github.com/dogefy/bilibili-card/blob/main/LICENSE)
