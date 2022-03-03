@@ -39,12 +39,6 @@ You can fork and commit PRs freely.
 - more imformation
 - . . .
 
-## Demo
-
-![card](https://raw.githubusercontent.com/dogefy/bilibili-card/main/demo/672342685.svg)
-
-As you see, this demo is in `demo/`, so it cannot be updated automatically.  :(
-
 ## License
 
 [MIT License](https://github.com/dogefy/bilibili-card/blob/main/LICENSE)

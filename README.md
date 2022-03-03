@@ -37,12 +37,6 @@
 - 卡片加点别的信息
 - 。。。
 
-## 演示
-
-![card](https://raw.githubusercontent.com/dogefy/bilibili-card/main/demo/672342685.svg) 
-
-如你所见，上面这个例子在仓库的demo文件夹中，并不具备自动更新的功能 :(
-
 ## 协议
 
 [MIT License](https://github.com/dogefy/bilibili-card/blob/main/LICENSE)
