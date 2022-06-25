@@ -1,0 +1,28 @@
+<svg width="450" height="195" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g>
+  <title>background</title>
+  <rect x="0" y="0" rx='20' width="450" height="195" id="background" fill="#ffb6c1"/>
+ </g>
+ <g>
+    <title>face</title>
+    <defs>
+        <pattern height="120" width="120" patternUnits="userSpaceOnUse" id="raduisImage">
+            <image  height="100" width="100" y="20" x="20" xlink:href="{face}"/>
+        </pattern>
+    </defs>
+    <circle id="svg_2" fill="url(#raduisImage)" r="50" cy="70" cx="70"/>
+ </g>
+ <g>
+  <title>stats</title>
+  <text xml:space="preserve" text-anchor="start" font-family="黑体, Arial" font-size="25" y="45" x="135" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#B13346">{name}</text>
+  <text xml:space="preserve" text-anchor="start" font-family="楷体, Arial" font-size="16" y="70" x="140" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#B13346">UID: {uid}</text>
+  <text xml:space="preserve" text-anchor="start" font-family="楷体, Arial" font-size="20" y="105" x="135" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#B13346">粉丝数: {fans}</text>
+  <text xml:space="preserve" text-anchor="start" font-family="楷体, Arial" font-size="20" y="135" x="135" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#B13346">关注数: {followings}</text>
+  <text xml:space="preserve" text-anchor="start" font-family="楷体, Arial" font-size="20" y="167" x="20" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#B13346">{sign}</text>
+  <text xml:space="preserve" text-anchor="start" font-family="楷体, Arial" font-size="20" y="105" x="300" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#B13346">性别: {sex}</text>
+ </g>
+  <g>
+  <title>date</title>
+  <text xml:space="preserve" text-anchor="start" font-family="黑体, Arial" font-size="10" y="185" x="350" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#B13346">更新于 {time}</text>
+ </g>
+</svg>
