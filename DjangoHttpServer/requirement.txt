@@ -1,5 +1,2 @@
-re
-time
-json
-base64
+Django
 requests
