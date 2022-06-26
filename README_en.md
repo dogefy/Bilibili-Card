@@ -5,6 +5,10 @@
 A simple status card for Bilibili, develped by `Python`, in `.svg` format.  
 not good as the expectation 🙃
 
+## 2022/06/26 Update
+A web server based on `Django`, all in `DjangoHttpServer/`, get card by `http://IP:port/card?uid=****`  
+Not a professor in `Django`, many bugs🙃
+
 ## Feature
 
 Get `face photo, gender, birthday, followers, followings, sign` **automatically** through Bilibili UID.  
@@ -34,7 +38,7 @@ You can fork and commit PRs freely.
 
 ## Future features & Bugs
 
-- a web server to get card and update automatically
+- ~~a web server to get card and update automatically~~
 - more backgrounds
 - more imformation
 - . . .
